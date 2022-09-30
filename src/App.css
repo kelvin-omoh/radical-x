@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Poppins:wght@400;500;600&family=Rajdhani:wght@500&family=Sirin+Stencil&display=swap');
+.purple{
+  color: #793EF5;
+}
+.nav-btn{
+  border: none;
+  border-radius: .5rem;
+  background: #E2E6EB;
+  color: #adabab;;
+}
+.App{
+  padding: 2rem;
+  background: #E2E6EB;
+}
+
+header{
+  border-radius: .9rem;
+  max-height: 19rem;
+  min-height:4rem ;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.no-decoration{
+  border: none;
+  background: none;
+}
+
+
+header div:nth-child(1) ,header div:nth-child(3){
+  padding:0 1rem;
+}
+/* header div:nth-child(1) */
+
+
+.title{
+  width: 336px;
+  height: 24px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+  /* identical to box height, or 86% */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-feature-settings: 'liga' off;
+  
+  color: #1E1E1E;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Sirin Stencil', cursive;
+}
+
+.section{
+  border:1px solid #adabab;
+  border-radius: 25px;
+  width: 60vw;
+}
+
+.section1{
+  border-radius: 24px;
+ min-height: 4rem;
+ /* min-width: 4rem; */
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+
+.section1 div:nth-child(2){
+  flex-wrap: wrap;
+}
+button {
+  border-radius: 24px;
+  border: none;
+  background: none;
+}
+
+.navigation button:hover{
+  border-radius: 24px;
+  border: 1px solid #793EF5;
+  font-weight: 700;
+  /* background-color: white; */
+  /* min-height: 9rem; */
+  color: #793EF5;
+  box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.12);
+}
+
+header button:hover{
+  border: 1px solid #793EF5;
+  font-weight: 700;
+  /* background-color: white; */
+  /* min-height: 9rem; */
+  color: #793EF5;
+  box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.12);
+}
+
+.stack button:hover {
+  border-radius: 24px;
+  border: 1px solid #793EF5;
+  font-weight: 700;
+  background:none;
+  min-height: 9rem;
+  cursor:auto;
+  color: #793EF5;
+  box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.12);
+}
+
+
+.section1 div:nth-child(2) input:nth-child(1){
+  background-color:#adabab;
+  height: 4rem;
+  width: 4rem;
+  text-align:justify;
+}
+
+.section1 div:nth-child(2) input:nth-child(2){
+  min-width: 70%;
+}
+.section2 input,.section3 input{
+width: 90%;
+margin-left: .5rem;
+}
+
+.company-tiitle{
+  width: 177px;
+height: 24px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.3px;
+font-feature-settings: 'liga' off;
+
+/* Purple */
+
+color: #793EF5;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+main .stack{
+display:grid;
+place-content: center;
+
+}
+
+.section4 div:nth-child(2){
+border: 1px solid #adabab;
+border-radius: 14px;
+border-style: dashed;
+display: flex;
+height: 4rem;
+width: 90%;
+align-items: center;
+font-size: .8rem;
+justify-content: center;
+}
+
+.section5 .inner{
+  gap: 1em;
+  min-width: 15vw;
+  margin: 1rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  border: 1px solid #793EF5;
+  padding:.5em 1em;
+}
+
+.section6 .child-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+.section6 .add-team,.section7 .add-team{
+  color: #793EF5;
+  /* padding: .4em; */
+  /* margin: 0 .5em; */
+  border: 1px solid #793EF5;
+  border-style: dashed;
+  border-radius: 14px;
+}
+
+.section7 .person{
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+
+}
+
+.section7 .name{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.section7  .link{
+  margin-left: 2rem;
+  font-size: 3rem;
+  color: darkblue;
+} 
+
+.section7 img{
+  height: 4rem;
+  border: none;
+}
+
+.section8{
+  border:none ;
+}
+
+.section8 input{
+  min-width:20vw ;
+  border: 1px solid #793EF5;
+  height: 3rem;
+  border-radius: .8rem;
+  content:"eii";
+}
+
+.section8 .parent{
+  display: flex;
+  flex-wrap: wrap;
+}
